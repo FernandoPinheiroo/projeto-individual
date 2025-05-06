@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -11,8 +10,8 @@ body {
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
-    height: 100vh;
     color: white;
+    overflow-x: hidden;
 }
 
 header {
@@ -97,18 +96,22 @@ a:hover {
     color: black;
 }
 
-.linha-container {
+.linha_container {
     width: 100%;
     border-bottom: 3px solid white;
     padding-bottom: 30px;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .noticias {
     padding: 40px;
+    padding-left: 0px;
     color: white;
+    width: 100%;
   }
   
-  .noticias-container {
+  .noticias__container {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -161,3 +164,109 @@ a:hover {
     font-size: 50px;
     color: black;
   }
+
+.linha_container_2 {
+  width: 100%;
+  border-bottom: 3px solid white;
+  padding-bottom: 30px;
+}
+
+.torcida {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.container__titulo_torcida {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: red;
+}
+
+.linha__container__3 {
+  width: 100%;
+  border-bottom: 3px solid white;
+  padding-bottom: 30px; 
+}
+
+.container__principal__torcida {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1300px;
+  margin: auto;
+  gap: 40px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.container__torcida__paragrafo {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: white;
+  width: 1000px;
+}
+
+.container__torcida__imagem {
+  width: 550px;
+  border-radius: 40px;
+}
+
+.container__principal__institucional {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1300px;
+  margin: auto;
+  gap: 40px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.container__titulo__institucional {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: white;
+}
+
+.linha__container__4 {
+  width: 100%;
+  border-bottom: 3px solid white;
+  padding-bottom: 30px; 
+  display: flex;
+  flex-direction: column;
+
+}
+
+.container__institucional__paragrafo {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: white;
+  width: 1000px;
+}
+
+.container__institucional__imagem {
+  width: 550px;
+  border-radius: 40px;
+}
+
+.container__institucional__secundario {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1300px;
+  margin: auto;
+  gap: 40px;
+  margin-top: 50px;
+  align-items: center;
+}
