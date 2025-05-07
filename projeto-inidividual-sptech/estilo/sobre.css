@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'university';
+    src: url('/fonts/University.otf') format('opentype');
+
+}
+
+@font-face {
+    font-family: 'boost' ;
+    src: url('fonts/BoostPlayer_PERSONAL_USE_ONLY.otf') format('opentype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+}
+
+.cabecalho__esquerda {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__titulo {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 39px;
+}
+
+.titulo {
+    font-family: "university", sans-serif;
+}
+
+
+
+
+.cabecalho__imagem {
+    width: 80px;
+    
+}
+
+.cabecalho__direita img {
+    width: 100px;
+    height: auto;
+    
+}

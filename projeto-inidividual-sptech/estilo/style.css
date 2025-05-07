@@ -19,7 +19,6 @@ header {
     justify-content: space-between;
     border-bottom: 3px solid white;
     height: 12%;
-
 }
 
 .cabecalho__container__titulo {
@@ -50,7 +49,6 @@ nav a {
     font-weight: 400;
     font-style: normal;
     font-size: 18px;    
-    
 }
 
 a:hover {
@@ -96,29 +94,30 @@ a:hover {
     color: black;
 }
 
-.linha_container {
-    width: 100%;
+.linha-total {
+    width: 100vw;
     border-bottom: 3px solid white;
     padding-bottom: 30px;
     margin: 0;
     box-sizing: border-box;
+    position: relative;
+    left: calc(-50vw + 50%);
 }
 
 .noticias {
-    padding: 40px;
-    padding-left: 0px;
+    padding: 40px 0;
     color: white;
     width: 100%;
-  }
+}
   
-  .noticias__container {
+.noticias__container {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
-  }
+}
   
-  .card-noticia {
+.card-noticia {
     background-color: rgba(0, 0, 0, 0.6); 
     border: 2px solid white;
     border-radius: 12px;
@@ -126,147 +125,154 @@ a:hover {
     padding: 24px;
     box-shadow: 0 0 10px white;
     transition: transform 0.3s;
-  }
+}
   
-  .card-noticia:hover {
+.card-noticia:hover {
     transform: scale(1.03); 
-  }
+}
   
-  .card-noticia img {
+.card-noticia img {
     width: 100%;            
     height: 160px;          
     object-fit: cover;      
     border-radius: 8px;     
     display: block;         
     max-width: 100%;      
-  }
+}
   
-  .card-noticia h3 {
+.card-noticia h3 {
     margin: 15px 0 10px;
     font-family: "Bebas Neue", sans-serif;
-  }
+}
   
-  .card-noticia p {
+.card-noticia p {
     font-size: 14px;
     margin-bottom: 10px;
-  }
+}
   
-  .card-noticia span {
+.card-noticia span {
     font-size: 12px;
     color: #ccc;
-  }
+}
 
-  .container__titulo__card {
+.container__titulo__card {
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
     color: black;
-  }
-
-.linha_container_2 {
-  width: 100%;
-  border-bottom: 3px solid white;
-  padding-bottom: 30px;
 }
 
 .torcida {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .container__titulo_torcida {
-  text-align: center;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 50px;
-  color: red;
-}
-
-.linha__container__3 {
-  width: 100%;
-  border-bottom: 3px solid white;
-  padding-bottom: 30px; 
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: red;
 }
 
 .container__principal__torcida {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 1300px;
-  margin: auto;
-  gap: 40px;
-  margin-top: 50px;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1300px;
+    margin: auto;
+    gap: 40px;
+    margin-top: 50px;
+    align-items: center;
 }
 
 .container__torcida__paragrafo {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
-  color: white;
-  width: 1000px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+    width: 1000px;
 }
 
 .container__torcida__imagem {
-  width: 550px;
-  border-radius: 40px;
+    width: 550px;
+    border-radius: 40px;
 }
 
 .container__principal__institucional {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 1300px;
-  margin: auto;
-  gap: 40px;
-  margin-top: 50px;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1300px;
+    margin: auto;
+    gap: 40px;
+    margin-top: 50px;
+    align-items: center;
 }
 
 .container__titulo__institucional {
-  text-align: center;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 50px;
-  color: white;
-}
-
-.linha__container__4 {
-  width: 100%;
-  border-bottom: 3px solid white;
-  padding-bottom: 30px; 
-  display: flex;
-  flex-direction: column;
-
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
 }
 
 .container__institucional__paragrafo {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
-  color: white;
-  width: 1000px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+    width: 1000px;
 }
 
 .container__institucional__imagem {
-  width: 550px;
-  border-radius: 40px;
+    width: 550px;
+    border-radius: 40px;
 }
 
 .container__institucional__secundario {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 1300px;
-  margin: auto;
-  gap: 40px;
-  margin-top: 50px;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1300px;
+    margin: auto;
+    gap: 40px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.rodape {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.rodape__texto {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.rodape__redes a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.icone-rede {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s;
+}
+
+.icone-rede:hover {
+  transform: scale(1.1);
 }
