@@ -139,5 +139,34 @@ a:hover {
     align-items: flex-start;
     gap: 40px;
     padding: 50px;
+    margin-bottom: 0;
 }
 
+
+.rodape {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  padding-top: 40px;
+}
+
+.rodape__texto {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.rodape__redes a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.icone-rede {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s;
+}
+
+.icone-rede:hover {
+  transform: scale(1.1);
+}
