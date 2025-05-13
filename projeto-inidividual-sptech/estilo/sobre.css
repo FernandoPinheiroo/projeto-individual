@@ -41,7 +41,7 @@ body {
 }
 
 .titulo {
-    font-family: "university", sans-serif;
+    font-family: 'university';
 }
 
 
@@ -86,7 +86,6 @@ a:hover {
     color: red;
     transition: 0.3s all;
 }
-
 
 .container__principal {
     background-color: rgba(0, 0, 0, 0.863);
