@@ -67,7 +67,7 @@ a:hover {
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
-    color: black;
+    color: white;
 }
 
 .container__principal__primeira__section {
@@ -88,10 +88,10 @@ a:hover {
 
 .container__principal__paragrafo {
     font-family: "Bebas Neue", sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
     font-size: 24px;
-    color: black;
+    color: white;
 }
 
 .linha-total {
@@ -161,7 +161,7 @@ a:hover {
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
-    color: black;
+    color: white;
 }
 
 .torcida {
@@ -176,7 +176,7 @@ a:hover {
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
-    color: red;
+    color: white;
 }
 
 .container__principal__torcida {
