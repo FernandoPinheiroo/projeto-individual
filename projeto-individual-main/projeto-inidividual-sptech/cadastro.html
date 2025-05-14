@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Corinthians</title>
+    <link rel="stylesheet" href="estilo/cadastro.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <div class="container1">
+            <div class="logo">
+                <img src="assets/cp-corinthians.png" alt="Logo Corinthians" class="logo-img">
+                <h1 class="titulo">Corinthians</h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="noticias.html">Notícias</a></li>
+                    <li><a href="torcida.html">Torcida</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="cadastro.html" class="ativo">Cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Tela de Cadastro -->
+    <div class="card">
+        <h2>Cadastro - Corinthians</h2>
+        <div class="cadastro">
+            <input type="text" id="ipt_nome" placeholder="Nome Completo">
+            <input type="email" id="ipt_email" placeholder="E-mail">
+            <input type="text" id="ipt_usuario" placeholder="Usuário">
+            <input type="password" id="ipt_senha" placeholder="Senha">
+            <input type="password" id="ipt_confirma_senha" placeholder="Confirmar Senha">
+            <button onclick="cadastro()" class="botao">Cadastrar</button>
+            <a href="login.html">Já tem uma conta? Faça login</a>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <p class="rodape__texto">&copy; Desenvolvido em 2025 por Fernando de Oliveira Pinheiro. Todos os direitos reservados.</p>
+        <div class="rodape__redes">
+            <a href="https://www.instagram.com/corinthians" target="_blank">
+                <img src="assets/logo-instagram-certo.webp" alt="Instagram" class="icone-rede">
+            </a>
+            <a href="https://www.twitter.com/corinthians" target="_blank">
+                <img src="assets/logo-twitter.webp" alt="Twitter" class="icone-rede">
+            </a>
+        </div>
+    </footer>
+
+    <script src="cadastroLogin.js"></script>
+</body>
+
+</html>
