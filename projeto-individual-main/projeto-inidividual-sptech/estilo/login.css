@@ -1,0 +1,371 @@
+/* Resetando e definindo fontes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Giga', sans-serif;
+    background-color: #f4f4f4; /* Fundo claro */
+    color: #333;
+    min-height: 100vh; /* Garante que a altura mínima da página ocupe toda a tela */
+    display: flex;
+    flex-direction: column; /* Alinha o conteúdo em coluna */
+}
+
+/* Cabeçalho */
+.cabecalho {
+    height: 80px;
+    background-color: #000; /* Preto, cor principal do Corinthians */
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombras para destacar */
+}
+
+.cabecalho .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.titulo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar a {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #f15b5b; /* Vermelho do Corinthians */
+}
+
+.navbar a.ativo {
+    color: #f15b5b;
+    font-weight: bold;
+}
+
+/* Formulário de Login */
+.card {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    color: #333;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #f15b5b; /* Vermelho do Corinthians */
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+input:focus {
+    border-color: #333;
+}
+
+.botao {
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: #f15b5b; /* Vermelho */
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #c14d4d;
+    transform: scale(1.05);
+}
+
+a {
+    color: #f15b5b;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #000; /* Preto */
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    position: relative;
+    margin-top: 40px; /* Espaçamento entre o conteúdo e o rodapé */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    bottom: 0;
+}
+
+.rodape__texto {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.rodape__redes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.icone-rede {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icone-rede:hover {
+    transform: scale(1.1);
+}
+
+/* Resetando e definindo fontes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; /* Garante que o HTML e o body ocupem toda a altura da tela */
+    font-family: 'Lexend Giga', sans-serif;
+    background-color: #f4f4f4; /* Fundo claro */
+    color: #333;
+    display: flex;
+    flex-direction: column; /* Alinha o conteúdo em coluna */
+}
+
+/* Cabeçalho */
+.cabecalho {
+    height: 80px;
+    background-color: #000; /* Preto, cor principal do Corinthians */
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombras para destacar */
+}
+
+.cabecalho .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.titulo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar a {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #f15b5b; /* Vermelho do Corinthians */
+}
+
+.navbar a.ativo {
+    color: #f15b5b;
+    font-weight: bold;
+}
+
+/* Formulário de Login */
+.card {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    color: #333;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex-grow: 1; /* Permite que a área do card cresça se necessário */
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #f15b5b; /* Vermelho do Corinthians */
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+input:focus {
+    border-color: #333;
+}
+
+.botao {
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: #f15b5b; /* Vermelho */
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #c14d4d;
+    transform: scale(1.05);
+}
+
+a {
+    color: #f15b5b;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #000; /* Preto */
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    position: relative;
+    margin-top: 40px; /* Espaçamento entre o conteúdo e o rodapé */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    bottom: 0;
+}
+
+.rodape__texto {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.rodape__redes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.icone-rede {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icone-rede:hover {
+    transform: scale(1.1);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card {
+        padding: 20px;
+        width: 90%;
+    }
+}
+

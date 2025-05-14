@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'university';
+    src: url('/fonts/University.otf') format('opentype');
+
+}
+
+@font-face {
+    font-family: 'boost' ;
+    src: url('fonts/BoostPlayer_PERSONAL_USE_ONLY.otf') format('opentype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+}
+
+.cabecalho__esquerda {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__titulo {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 39px;
+}
+
+.titulo {
+    font-family: 'university';
+}
+
+
+
+
+.cabecalho__imagem {
+    width: 80px;
+    
+}
+
+.cabecalho__direita {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+.cabecalho__direita nav {
+    display: flex;
+    gap: 20px; 
+}
+
+.cabecalho__direita img {
+    margin-left: auto; 
+    width: 100px;
+    height: auto;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;    
+}
+
+a:hover {
+    color: red;
+    transition: 0.3s all;
+}
+
+.container__principal {
+    background-color: rgba(0, 0, 0, 0.863);
+}
+
+.container__primeiro__conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 50px;
+}
+
+.container__titulo__paragrafo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 800px; /* Limita quebra de linha */
+}
+
+.container__titulo__paragrafo h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: 'university';
+}
+
+.container__titulo__paragrafo p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container__imagem img {
+    width: 680px;
+    border-radius: 25px;
+    display: block;
+}
+
+.container__segundo__conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 50px;
+}
+
+.container__terceiro__conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 50px;
+    margin-bottom: 0;
+}
+
+
+.rodape {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  padding-top: 40px;
+}
+
+.rodape__texto {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.rodape__redes a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.icone-rede {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s;
+}
+
+.icone-rede:hover {
+  transform: scale(1.1);
+}

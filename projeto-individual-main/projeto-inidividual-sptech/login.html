@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Corinthians</title>
+    <link rel="stylesheet" href="estilo/login.css"> 
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <div class="container1">
+            <div class="logo">
+                <img src="assets/cp-corinthians.png" alt="Logo Corinthians" class="logo-img">
+                <h1 class="titulo">Corinthians</h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">sobre</a></li>
+                    <li><a href="noticias.html">noticias</a></li>
+                    <li><a href="torcida.html">Torcida</a></li>
+                    <li><a href="login.html" class="ativo">Login</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Tela de Login -->
+    <div class="card">
+        <h2>Login - Corinthians</h2>
+        <div class="login">
+            <input type="text" id="ipt_usuario" placeholder="Usuário">
+            <input type="password" id="ipt_senha" placeholder="Senha">
+            <button onclick="login()" class="botao">Entrar</button>
+            <a href="cadastro-corinthians.html">Não tem uma conta? Cadastre-se agora</a>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <p class="rodape__texto">&copy; Desenvolvido em 2025 por Fernando de Oliveira Pinheiro. Todos os direitos reservados.</p>
+        <div class="rodape__redes">
+            <a href="https://www.instagram.com/corinthians" target="_blank">
+                <img src="assets/logo-instagram-certo.webp" alt="Instagram" class="icone-rede">
+            </a>
+            <a href="https://www.twitter.com/corinthians" target="_blank">
+                <img src="assets/logo-twitter.webp" alt="Twitter" class="icone-rede">
+            </a>
+        </div>
+    </footer>
+
+    <script src="cadastroLogin.js"></script>
+</body>
+
+</html>
